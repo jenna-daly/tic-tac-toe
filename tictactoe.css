@@ -6,9 +6,111 @@ table {
 button {
 	height: 100px;
 	width: 100px;
+  color: red;
+  font-size: 18px;
+  font-family: 'Bungee', cursive;
+    text-shadow: 2px 2px blue;
+
 }
 
 table.center {
     margin-left:auto; 
     margin-right:auto;
   }
+
+  #button2 {
+  	height: 50px;
+  	width: 200px;
+  	margin-top: 40px;
+  	border-radius: 12px;
+  	background-color: #555555;
+    color: black;
+    font-size: 15px;
+}
+
+body {
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+  background-size: cover;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/11/3e/1e/113e1e07af5de3b7cf67c5eef6ea3a3d.jpg");
+  text-shadow: 2px 2px white;
+}
+
+#currentplayer {
+	color: black;
+}
+
+
+
+
+body, a:hover {cursor: url(http://www.rw-designer.com/cursor-view/30810.png), auto}
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h2 {
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+p {
+  animation-duration: 9s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+button {
+  animation-duration: 12s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
